@@ -48,8 +48,9 @@ Users should be able to:
 
 ### What I learned
 
-  -Responsive web design using media queries
-  -Type annotation using Typescript
+- Responsive web design using media queries
+- Type annotation using Typescript
+  
 ### Useful resources
 
 - [Responsividade na Prática | Masterclass #08](https://www.youtube.com/watch?v=H91DhKPjhPk) - This helped me for to create responsive design.
