@@ -1,0 +1,36 @@
+.head{
+    height: 146px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    background: url("../../assets/pattern-circles.svg") no-repeat center;
+    color: #293356;
+    
+    div{
+        display: flex;
+        color: #858FAD;
+    }
+
+}
+
+@media (max-width: 590px) {
+    .head{
+        white-space: nowrap;
+        
+        div{
+            display: block;
+        }
+    }
+}
+
+@media (max-width: 375px){
+    .head{
+        h2{
+            white-space: nowrap;
+        }
+    }
+}
