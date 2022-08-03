@@ -42,6 +42,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
+- Saas
 - [React](https://reactjs.org/) - JS library
 - [Vite](https://vitejs.dev/)
 - [Typescript](https://www.typescriptlang.org/)
