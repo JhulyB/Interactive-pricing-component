@@ -8,11 +8,11 @@
     text-align: center;
     
     background: url("../../assets/pattern-circles.svg") no-repeat center;
-    color: #293356;
+    color: var(--dark-desaturated-blue);
     
     div{
         display: flex;
-        color: #858FAD;
+        color: var(--grayish-blue);
     }
 
 }
