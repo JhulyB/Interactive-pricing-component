@@ -1,11 +1,12 @@
+
 .card{
     margin: 56px 24px;
     padding: 32px 20px;
     border-radius: 6px;
     width: 540px;
 
-    color: #858FAD;
-    background-color: white;
+    color: var(--grayish-blue);
+    background-color: var(--white);
 }
 
 
@@ -31,7 +32,8 @@
 
 
         h1{
-            color:#293356;
+            font-weight: 800;
+            color:var(--dark-desaturated-blue);
         }
     }
 }
@@ -54,8 +56,8 @@
         gap:4px;
 
         p{
-            background-color: #FEECE7;
-            color: #FF8C66;
+            background-color: var(--light-grayish-red);
+            color: var(--light-red);
             padding: 0 6px;
             height: 20px;
             border-radius: 10px;
@@ -69,7 +71,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 16px 0;
-    border-top: 1px solid #BDCCFF;
+    border-top: 1px solid var(--pale-blue);
 
     .list{
         display: flex;
@@ -99,15 +101,17 @@
             padding: 0 40px;
             border: 0;
             border-radius: 20px;
+            transition: .3s;
     
-            color: #BDCCFF; //pale-blue
-            background-color: #293356;
+            color: var(--pale-blue); //pale-blue
+            background-color: var(--dark-desaturated-blue);
+            
+            &:hover{
+                opacity: 0.7;
+                cursor: pointer;
+            }
         }
 
-        button:hover{
-            opacity: 0.7;
-            cursor: pointer;
-        }
     }
 }
 

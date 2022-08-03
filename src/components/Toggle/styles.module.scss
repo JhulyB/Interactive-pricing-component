@@ -21,7 +21,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #CDD7EE;
+    background-color: var(--light-grayish-blue);
     -webkit-transition: .4s;
     transition: .4s;
 
@@ -35,7 +35,7 @@
     width: 14px;
     left: 4px;
     bottom: 4px;
-    background-color: white;
+    background-color: var(--white);
     -webkit-transition: .4s;
     transition: .4s;
 
@@ -43,11 +43,11 @@
   }
   
   input:checked + .slider {
-    background-color: #10D5C2;
+    background-color: var(--strong-cyan);
   }
   
   input:focus + .slider {
-    box-shadow: 0 0 1px #10D5C2;
+    box-shadow: 0 0 1px var(--strong-cyan);
   }
 
   input:hover + .slider {
